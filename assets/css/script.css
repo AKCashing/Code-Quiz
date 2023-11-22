@@ -6,7 +6,25 @@
 
 header {
     width: 100vw;
-    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20px;
+    font-size: 25px;
+}
+
+header p1 {
+    margin: 20px 0px 0px 20px;
+    color: #0088CC;
+}
+
+header p2 {
+    margin: 20px 20px 0px 0px;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,8 +33,20 @@ header {
     font-size: 40px;
 }
 
+main h2 {
+    margin-bottom: 30px;
+}
+
+main p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #start-button {
     padding: 15px 20px;
+    margin-top: 30px;
     border-radius: 10px;
     background-color: #337799;
     color: white;
