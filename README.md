@@ -3,7 +3,7 @@
 ## Description
 This "Code Quiz" repository involves creating a quiz that asks the user a series of questions for them to answer. The user will have to select 1 of 4 answers and only 1 of them are correct. Whether they answer correctly or not the quiz will progress and tally their total and give them points on how well they did.
 
-![Password Generator](./Assets/03-javascript-homework-demo.png)
+![Code Quiz](./Assets/03-javascript-homework-demo.png)
 
 ## Link To Deployed Site
-[Radnom Password Generator](https://akcashing.github.io/JavaScript-Random-Password-Generator/)
+[Code Quiz](https://akcashing.github.io/Code-Quiz/)
