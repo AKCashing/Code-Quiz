@@ -1,4 +1,3 @@
-
 * {
     padding: 0;
     margin: 0;
@@ -15,16 +14,16 @@ header {
     font-size: 25px;
 }
 
-header p1 {
+#leaderboard {
     margin: 20px 0px 0px 20px;
     color: #0088CC;
 }
 
-header p2 {
+#timer {
     margin: 20px 20px 0px 0px;
 }
 
-main1 {
+#start-screen {
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -35,11 +34,11 @@ main1 {
     font-size: 40px;
 }
 
-main1 h2 {
+#start-screen h2 {
     margin-bottom: 30px;
 }
 
-main1 p {
+#start-screen p {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -60,7 +59,7 @@ main1 p {
     cursor: pointer;
 }
 
-main2 {
+#question1 {
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -71,11 +70,11 @@ main2 {
     font-size: 40px;
 }
 
-main2 h2 {
+#question1 h2 {
     margin-bottom: 30px;
 }
 
-#question1-button1 {
+#strings-button {
     padding: 15px 20px;
     border-radius: 10px;
     background-color: #337799;
@@ -84,11 +83,11 @@ main2 h2 {
     font-size: 25px;
 }
 
-#question1-button1:hover {
+#strings-button:hover {
     cursor: pointer;
 }
 
-#question1-button2 {
+#booleans-button {
     padding: 15px 20px;
     margin-top: 10px;
     border-radius: 10px;
@@ -98,11 +97,11 @@ main2 h2 {
     font-size: 25px;
 }
 
-#question1-button2:hover {
+#booleans-button:hover {
     cursor: pointer;
 }
 
-#question1-button3 {
+#alerts-button {
     padding: 15px 20px;
     margin-top: 10px;
     border-radius: 10px;
@@ -112,11 +111,11 @@ main2 h2 {
     font-size: 25px;
 }
 
-#question1-button3:hover {
+#alerts-button:hover {
     cursor: pointer;
 }
 
-#question1-button4 {
+#numbers-button {
     padding: 15px 20px;
     margin-top: 10px;
     border-radius: 10px;
@@ -126,6 +125,76 @@ main2 h2 {
     font-size: 25px;
 }
 
-#question1-button4:hover {
+#numbers-button:hover {
+    cursor: pointer;
+}
+
+#question2 {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#question2 h2 {
+    margin-bottom: 30px;
+}
+
+#quotes-button {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #337799;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#quotes-button:hover {
+    cursor: pointer;
+}
+
+#crlybrackets-button {
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #337799;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#crlybrackets-button:hover {
+    cursor: pointer;
+}
+
+#parenthesis-button {
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #337799;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#parenthesis-button:hover {
+    cursor: pointer;
+}
+
+#sqbrackets-button {
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #337799;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#sqbrackets-button:hover {
     cursor: pointer;
 }
